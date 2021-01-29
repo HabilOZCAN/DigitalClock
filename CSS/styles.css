@@ -1,0 +1,26 @@
+body {
+    background: black;
+}
+
+label,
+#cities {
+    color: #17D4FE;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+#cities {
+    background-color: black;
+    margin-left: 15px;
+}
+
+#display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
